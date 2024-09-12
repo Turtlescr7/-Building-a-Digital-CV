@@ -6,14 +6,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    <!--title-->
     <title>Tito Moctezuma • Aspiring Software Developer</title>
     <meta
       name="description"
       content="Revolutionizing the Digital World. Located in Houston, Texas. Looking to create a better digital space. © Code by Tito"
     />
-
-    <!-- Open Graph meta tags for social media -->
     <meta
       property="og:title"
       content="Tito Moctezuma • Aspiring Software Developer"
@@ -26,8 +23,6 @@
     <meta property="og:site_name" content="Tito Moctezuma" />
     <meta property="og:locale" content="en" />
     <meta property="og:type" content="website" />
-
-    <!-- LinkedIn card meta tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -38,14 +33,9 @@
       content="Revolutionizing the Digital World. Located in Houston, Texas. Looking to create a better digital space. © Code by Tito"
     />
     <meta name="twitter:image" content="turtle.png" />
-
-    <!-- Other meta tags -->
     <meta name="google" content="notranslate" />
-
-    <!--css link-->
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="loading-container">
       <div class="loading-screen">
@@ -63,56 +53,54 @@
         </div>
       </div>
     </div>
-    <main>
+    <main class="main-content">
       <header>
         <nav id="navbar" class="navbar">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Experience</li>
-            <li>Contact</li>
+          <ul id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#section1">About</a></li>
+            <li><a href="#section2">Experience</a></li>
+            <li><a href="#section3">Contact</a></li>
           </ul>
         </nav>
       </header>
-      <h1><bold>Tito Moctezuma</bold></h1>
-      <p>Student</p>
-      <!--cv profile img-->
-      <img src="turtle.png" alt="A turtle" />
-      <br />
-      <!--summary-->
-      <section id="section1">
-        <h3>Summary</h3>
-        <hr />
-        <p>
-          Dedicated software engineer with a solid understanding of programming
-          principles. Currently enrolled in Springboard's immersive software
-          engineering program to acquire hands-on experience through simulated
-          real-world projects. Seeking to leverage technical expertise and
-          analytical thinking to contribute to cutting-edge software development
-          initiatives.
-        </p>
-
-        <br />
-        <!--education-->
-        <h3>Education</h3>
-        <hr />
-        <h3>High School Diploma</h3>
-        <h4>Waltrip High School</h4>
-        <p>&#128197; 2019 - 2023 &#128205; Houston, TX</p>
-        <br />
-        <!--skills-->
-        <h3>Technical Skills</h3>
-        <hr />
-        <p>
-          <u>HTML</u>
-          <u>CSS</u>
-          <u>JavaScript</u>
-        </p>
-        <br />
-        <!--strenghts-->
-        <h3>Stengths</h3>
-        <hr />
-        <div>
+      <div class="parallax-content">
+        <h1>
+          Tito Moctezuma <br />
+          <small>Student</small>
+        </h1>
+        <img src="turtle.png" alt="A turtle" />
+      </div>
+      <section id="section1" class="info-section">
+        <article class="intro">
+          <h3>About me</h3>
+          <p>
+            "I'm a dedicated software engineer with a strong foundation in
+            programming principles. Currently honing my skills in Springboard's
+            immersive program, where I'm gaining practical experience through
+            real-world projects. Eager to apply my technical expertise and
+            analytical thinking to innovative software development projects."
+          </p>
+        </article>
+        <article class="education">
+          <h3>Education</h3>
+          <hr />
+          <h3>High School Diploma</h3>
+          <h4>Waltrip High School</h4>
+          <p>&#128197; 2019 - 2023 &#128205; Houston, TX</p>
+        </article>
+        <article class="skills">
+          <h3>Technical Skills</h3>
+          <hr />
+          <p>
+            <u>HTML</u>
+            <u>CSS</u>
+            <u>JavaScript</u>
+          </p>
+        </article>
+        <article class="Strengths">
+          <h3>Strengths</h3>
+          <hr />
           <ul>
             <li>Problem-solving and critical thinking</li>
             <li>Attention to detail</li>
@@ -120,49 +108,44 @@
             <li>Adaptability</li>
             <li>Teamwork and collaboration</li>
           </ul>
-        </div>
+        </article>
       </section>
-      <br />
-      <!--experience-->
-      <section id="section2">
-        <h3>Experience</h3>
-        <hr />
-        <h3>Student Intern</h3>
-        <h4>Giant Machines</h4>
-        <p>&#128197; 2023 - 2023 &#128205; Houston, TX</p>
-
-        <br />
-
-        <!--Courses-->
-        <h3>Courses</h3>
-        <hr />
-        <p>
-          Codecademy<br />
-          JavaScript:<br />
-          Programming Certification
-        </p>
-
-        <p>
-          Codecademy<br />
-          HTML:<br />
-          Programming Certification
-        </p>
-        <p>
-          Codecademy<br />
-          CSS:<br />
-          Programming Certification
-        </p>
+      <section id="section2" class="experience-section">
+        <article class="experience">
+          <h3>Experience</h3>
+          <hr />
+          <h3>Student Intern</h3>
+          <h4>Giant Machines</h4>
+          <p>&#128197; 2023 - 2023 &#128205; Houston, TX</p>
+        </article>
+        <article class="courses">
+          <h3>Courses</h3>
+          <hr />
+          <p>
+            Codecademy<br />
+            JavaScript:<br />
+            Programming Certification
+          </p>
+          <p>
+            Codecademy<br />
+            HTML:<br />
+            Programming Certification
+          </p>
+          <p>
+            Codecademy<br />
+            CSS:<br />
+            Programming Certification
+          </p>
+        </article>
       </section>
     </main>
+    <footer id="section3" class="contact-section">
+      <h3>Contact</h3>
+      <p>
+        &#128222; 000-000-0000 &#128237; email.com &#128279;
+        <a href="https://www.linkedin.com">LinkedIn</a> &#128205; Houston, TX
+      </p>
+    </footer>
     <script src="scripts.js"></script>
   </body>
-  <footer div="section3">
-    <!--links such as portfolio ect-->
-    <!--contact info-->
-    <h3>Contact</h3>
-    <p>
-      &#128222; 000-000-0000 &#128237; email.com &#128279;
-      https://www.linkedin.com &#128205;Houston, TX
-    </p>
-  </footer>
 </html>
